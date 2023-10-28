@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Helvetica Neue, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(https://st2.depositphotos.com/4304307/47161/i/450/depositphotos_471614268-stock-photo-modern-office-desktop-with-keyboard.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form{
+    padding: 50px;
+    padding: flex;
+    flex-direction: column;
+    width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0 , 0, 2);
+    border-radius: 15px;
+    background-color: #EEEEEE;
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #2E2E2E;
+    margin-bottom: 25px;
+}
+
+label, p{
+    font-size: 17px;
+    color: #575757;
+    margin-bottom: 10px;
+    text-align: left;
+    padding: 10px;
+}
+
+input{
+    padding: 17px 11px;
+    border: 1px solid #00ADEF;
+    border-radius:  25px;
+    margin-bottom: 25px;
+    background-color: #fafafc;
+    outline: none;
+    color: #00ADEF;
+    font-size: 17px;
+}
+
+.btn-1{
+    background-color: #00ADEF;
+    font-size: 15px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btn-1:hover{
+    background-color: #04b8ff;
+}
+
+.remember {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+@media(max-width:991px){
+    body {
+        padding: 30px;
+    }
+    form {
+        width: 100%;
+    }
+}
